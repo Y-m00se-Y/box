@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+body .highlighted {
+  background-color: red;
+}
+
+body .important {
+  opacity: 1;
+}
+
+body .special-header {
+  background-color: yellow;
+}
+
+div {
+  display: inline-block;
+  margin: 50px 50px;
+  opacity: 0.7;
+}
+
+div header, div p {
+  padding: 10px 25px;
+}
+/*# sourceMappingURL=style.css.map */

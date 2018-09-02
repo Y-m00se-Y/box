@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	.highlighted {
+		background-color: red;
+	}
+	.important {
+		opacity: 1;
+	}
+	.special-header {
+		background-color: yellow;
+	}
+}
+div {
+	display: inline-block;
+	margin: 50px 50px;
+	opacity: 0.7;
+	header {
+		padding: 10px 25px;
+	}
+	p {
+		@extend header;
+	}
+}
